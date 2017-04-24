@@ -47,7 +47,7 @@ else:
 
 from socket import socket, AF_PACKET, AF_INET, SOCK_RAW, SOCK_STREAM, htons, SOL_SOCKET, if_nametoindex, SO_REUSEADDR, \
     SO_KEEPALIVE, inet_ntoa
-from os import write, read, close, getpid, kill, execlp
+from os import execlp
 from struct import pack
 import ctypes
 import threading
